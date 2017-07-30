@@ -4,9 +4,9 @@
  */
 
 const restify = require('restify');
-const { promisify } = require('util');
+const pify = require('pify');
 const { resolve, relative } = require('path');
-const readdir = promisify(require('fs').readdir);
+const readdir = pify(require('fs').readdir);
 const logger = require('debug-logger')('scrapper');
 
 const { PORT } = require('./config/env');
