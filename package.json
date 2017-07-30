@@ -16,7 +16,7 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "debug-logger": "^0.4.1",
-    "moment": "^2.17.1",
+    "moment": "^2.18.1",
     "node-fetch": "^1.6.3",
     "restify": "^5.0.1",
     "restify-plugins": "^1.6.0"
