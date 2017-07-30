@@ -2,6 +2,7 @@
   "name": "info-scrapper",
   "version": "1.0.0",
   "main": "server.js",
+  "description": "Scrape all the things!",
   "repository": "git@github.com:zorrodg/info-scrapper.git",
   "author": "Andres Zorro <zorrodg@gmail.com>",
   "engines": {
