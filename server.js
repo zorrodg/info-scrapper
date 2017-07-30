@@ -25,5 +25,6 @@ readdir(resolve(__dirname, 'routes'))
 
     server.listen(PORT, () => {
       logger.log('%s listening to %s', server.name, server.url);
+      console.log('Server ready!');
     });
 });
