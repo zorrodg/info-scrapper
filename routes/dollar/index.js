@@ -31,7 +31,7 @@ module.exports = {
             $ = await $.text();
             $ = cheerio.load($);
 
-            let dias = $('#tabla_dh .dh_col_fecha').map(function () {
+            let dias = $('#tabla_dh [class^="dh_col_fecha"]').map(function () {
                 const $dia = $(this);
                 const fecha = $dia.text();
                 const precio = $dia.next().text();
