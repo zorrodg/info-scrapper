@@ -18,7 +18,7 @@
     "cheerio": "^1.0.0-rc.2",
     "debug-logger": "^0.4.1",
     "moment": "^2.29.2",
-    "node-fetch": "^1.6.3",
+    "node-fetch": "^2.6.7",
     "pify": "^3.0.0",
     "restify": "^5.0.1",
     "restify-plugins": "^1.6.0"
